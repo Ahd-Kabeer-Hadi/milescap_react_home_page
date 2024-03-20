@@ -11,7 +11,7 @@ export default function Footer() {
             height={30}
             width={250}
             alt="logo"
-            src="./public/LogoMain.svg"
+            src={"/static/LogoMain.svg"}
           ></img>
 
           <p className="text-sm font-mono mt-5 text-[#A1A1AA] max-w-md">

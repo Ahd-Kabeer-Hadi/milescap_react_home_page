@@ -2,56 +2,56 @@ export const services = [
   {
     title: "Forex",
     link: "https://www.mirrorfolio.com/",
-    thumbnail: "./public/forex.jpg",
+    thumbnail: "/static/forex.jpg",
   },
   {
     title: "Metals",
     link: "https://www.mirrorfolio.com/",
-    thumbnail: "./public/metal.jpg",
+    thumbnail: "/static/metal.jpg",
   },
   {
     title: "Indices",
     link: "https://www.mirrorfolio.com/",
-    thumbnail: "./public/trade.jpg",
+    thumbnail: "/static/trade.jpg",
   },
   {
     title: "Commodities",
     link: "https://www.mirrorfolio.com/",
-    thumbnail: "./public/commodities.jpg",
+    thumbnail: "/static/commodities.jpg",
   },
   {
     title: "Currencies",
     link: "https://www.mirrorfolio.com/",
-    thumbnail: "./public/currency.jpg",
+    thumbnail: "/static/currency.jpg",
   },
   {
     title: "Crypto Currency",
     link: "https://www.mirrorfolio.com/",
-    thumbnail: "./public/bitcoin.jpg",
+    thumbnail: "/static/bitcoin.jpg",
   },
   {
     title: "Shares",
     link: "https://www.mirrorfolio.com/",
-    thumbnail: "./public/shares.jpg",
+    thumbnail: "/static/shares.jpg",
   },
   {
     title: "Bonds",
     link: "https://www.mirrorfolio.com/",
-    thumbnail: "./public/bond.jpg",
+    thumbnail: "/static/bond.jpg",
   },
   {
     title: "Forex",
     link: "https://www.mirrorfolio.com/",
-    thumbnail: "./public/forex.jpg",
+    thumbnail: "/static/forex.jpg",
   },
   {
     title: "Metals",
     link: "https://www.mirrorfolio.com/",
-    thumbnail: "./public/metal.jpg",
+    thumbnail: "/static/metal.jpg",
   },
   {
     title: "Indices",
     link: "https://www.mirrorfolio.com/",
-    thumbnail: "./public/trade.jpg",
+    thumbnail: "/static/trade.jpg",
   },
 ];

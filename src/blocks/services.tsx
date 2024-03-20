@@ -56,7 +56,7 @@ const items = [
         className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2"
       >
         <img
-          src=".././public/forex.jpg"
+          src={"/static/forex.jpg"}
           alt="avatar"
           height="100"
           width="100"
@@ -81,7 +81,7 @@ const items = [
         className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2"
       >
         <img
-          src=".././public/metal.jpg"
+          src={"/static/metal.jpg"}
           alt="avatar"
           height="100"
           width="100"
@@ -106,7 +106,7 @@ const items = [
         className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2"
       >
         <img
-          src=".././public/commodities.jpg"
+          src={"/static/commodities.jpg"}
           alt="avatar"
           height="100"
           width="100"
@@ -131,7 +131,7 @@ const items = [
         className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2"
       >
         <img
-          src=".././public/shares.jpg"
+          src={"/static/shares.jpg"}
           alt="avatar"
           height="100"
           width="100"
@@ -156,7 +156,7 @@ const items = [
         className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2"
       >
         <img
-          src="./public/bitcoin.jpg"
+          src={"/static/bitcoin.jpg"}
           alt="avatar"
           height="100"
           width="100"
@@ -181,7 +181,7 @@ const items = [
         className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2"
       >
         <img
-          src=".././public/trade.jpg"
+          src={"/static/trade.jpg"}
           alt="avatar"
           height="100"
           width="100"
@@ -206,7 +206,7 @@ const items = [
         className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2"
       >
         <img
-          src=".././public/bond.jpg"
+          src={"/static/bond.jpg"}
           alt="avatar"
           height="100"
           width="100"

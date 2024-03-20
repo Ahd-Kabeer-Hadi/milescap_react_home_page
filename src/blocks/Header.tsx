@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <div className="w-full fixed z-50 h-20 border-[1px] border-card-border/20 bg-[#18181D]/60 py-5 bg-opacity-60 backdrop-filter backdrop-blur-md">
       <div className="max-w-7xl relative mx-auto px-4 container  flex items-center justify-between">
-        <img src="./public/LogoMain.svg" alt="logo" className="h-8 md:h-12" />
+        <img src={"/static/LogoMain.svg"} alt="logo" className="h-8 md:h-12" />
 
         <ul className="hidden md:flex font-semibold text-md  gap-5 ">
           <li className="cursor-pointer">
@@ -41,7 +41,7 @@ export default function Header() {
               <SheetHeader>
                 <SheetTitle>
                   <img
-                    src="./public/LogoMain.svg"
+                    src={"/static/LogoMain.svg"}
                     alt="logo"
                     className="h-12"
                   />

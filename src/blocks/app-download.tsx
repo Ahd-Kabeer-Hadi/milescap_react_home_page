@@ -3,7 +3,7 @@ export default function AppDownload() {
     <div className="max-w-7xl relative mx-auto py-20 px-4 w-full   items-center justify-between left-0 top-0 mb-11">
       <div className="w-full max-w-6xl mt-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div className="w-full">
-          <img src="./public/app.png" alt="app" className="rounded-lg" />
+          <img src={"/static/app.png"} alt="app" className="rounded-lg" />
         </div>
         <div>
           <h2 className="text-2xl md:text-4xl font-bold dark:text-white">
@@ -12,14 +12,14 @@ export default function AppDownload() {
           <div className="w-full flex gap-4 items-center mt-8">
             <a href="#" target="_blank" rel="noopener noreferrer">
               <img
-                src="./public/playstore.svg"
+                src={"/static/playstore.svg"}
                 alt="playstore"
                 className="rounded-lg ring-1 ring-white mr-4"
               />
             </a>
             <a href="#" target="_blank" rel="noopener noreferrer">
               <img
-                src="./public/apple.svg"
+                src={"/static/apple.svg"}
                 alt="playstore"
                 className="rounded-lg ring-1 ring-white"
               />
