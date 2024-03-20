@@ -13,7 +13,6 @@ import { services } from "./lib/constants/services";
 function App() {
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-
       <main>
         <Header />
         <div className="w-full  flex items-center justify-center ">

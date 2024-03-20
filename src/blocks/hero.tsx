@@ -1,34 +1,3 @@
-// import { Button } from "../components/ui/button";
-
-// export default function Hero() {
-//   return (
-//     <section className="w-full flex items-center min-h-screen overflow-x-clip sm:min-h-screen">
-//       <div className="  mx-auto mt-8 flex flex-col  max-w-7xl items-center w-full px-4 gap-9 top-5 backdrop-blur-sm rounded-lg">
-//         <h1 className="text-2xl md:text-3xl lg:text-5xl tracking-wide font-bold font-title text-center text-balance ">
-//           Accelerate Your Financial Growth <br />
-//           with Miles Capital limited
-//         </h1>
-//         <p className="md:text-2xl font-body font-light">
-//           Welcome to Miles Capital Limited, your trusted partner in smart
-//           trading.
-//         </p>
-
-//         <div className="flex gap-4 items-center justify-around">
-//           <Button className="w-40 h-12 bg-purple-500 text-white hover:bg-white hover:text-purple-500">
-//             Create Account
-//           </Button>
-//           <Button
-//             variant="outline"
-//             className="w-40 h-12 hover:bg-purple-500/35 border-[1px] border-card-border/20 bg-[#18181D]/60 py-5 bg-opacity-60 backdrop-filter backdrop-blur-md"
-//           >
-//             Open a demo Account
-//           </Button>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }
-
 import React from "react";
 import {
   motion,
@@ -190,10 +159,7 @@ export const ProductCard = ({
       key={product.title}
       className="group/product h-96 w-[30rem] relative flex-shrink-0"
     >
-      {/* <link
-        href={product.link}
-        className="block group-hover/product:shadow-2xl "
-      > */}
+     
       <img
         src={product.thumbnail}
         height="600"
@@ -201,7 +167,7 @@ export const ProductCard = ({
         className="object-cover object-left-top absolute h-full w-full inset-0"
         alt={product.title}
       />
-      {/* </link> */}
+   
       <div className="absolute inset-0 h-full w-full opacity-0 group-hover/product:opacity-80 bg-black pointer-events-none"></div>
       <h2 className="absolute bottom-4 left-4 opacity-0 group-hover/product:opacity-100 text-white">
         {product.title}
