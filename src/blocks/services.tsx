@@ -19,8 +19,8 @@ export function OurServices() {
           Our Products
         </h2>
         <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
-          Unlock a world of investment opportunities with Miles Capital.Lorem ipsum
-          dolor sit, amet consectetur adipisicing elit.
+          Unlock a world of investment opportunities with Miles Capital.Lorem
+          ipsum dolor sit, amet consectetur adipisicing elit.
         </p>
       </div>
       <div>
@@ -56,7 +56,7 @@ const items = [
         className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2"
       >
         <img
-          src="../src/assets/forex.jpg"
+          src=".././public/forex.jpg"
           alt="avatar"
           height="100"
           width="100"
@@ -81,7 +81,7 @@ const items = [
         className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2"
       >
         <img
-          src="../src/assets/metal.jpg"
+          src=".././public/metal.jpg"
           alt="avatar"
           height="100"
           width="100"
@@ -106,7 +106,7 @@ const items = [
         className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2"
       >
         <img
-          src="../src/assets/commodities.jpg"
+          src=".././public/commodities.jpg"
           alt="avatar"
           height="100"
           width="100"
@@ -131,7 +131,7 @@ const items = [
         className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2"
       >
         <img
-          src="../src/assets/shares.jpg"
+          src=".././public/shares.jpg"
           alt="avatar"
           height="100"
           width="100"
@@ -156,7 +156,7 @@ const items = [
         className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2"
       >
         <img
-          src="../src/assets/bitcoin.jpg"
+          src="./public/bitcoin.jpg"
           alt="avatar"
           height="100"
           width="100"
@@ -181,7 +181,7 @@ const items = [
         className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2"
       >
         <img
-          src="../src/assets/trade.jpg"
+          src=".././public/trade.jpg"
           alt="avatar"
           height="100"
           width="100"
@@ -206,7 +206,7 @@ const items = [
         className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2"
       >
         <img
-          src="../src/assets/bond.jpg"
+          src=".././public/bond.jpg"
           alt="avatar"
           height="100"
           width="100"
